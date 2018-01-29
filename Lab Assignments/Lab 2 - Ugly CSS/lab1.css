@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#FF009E
+}
+
+h1{
+	font: 75px 'Berkshire Swash', cursive;
+}
+
+p{
+	font: 25px 'Indie Flower', cursive;
+	font-size: 12;
+	width: 75%;
+	
+}
+
+marquee{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	marquee-speed: fast;
+}

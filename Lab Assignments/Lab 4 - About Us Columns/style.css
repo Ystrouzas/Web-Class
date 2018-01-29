@@ -1,0 +1,39 @@
+body {
+	align-items: center;
+}
+
+div.firstrow {
+	background-color: lightgrey;
+    width: 300px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;
+	float: left;
+	text-align: center;
+}
+
+div.secondrow {
+	background-color: lightgrey;
+    width: 300px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;
+	float: left;
+	text-align: center;
+}
+
+div.thirdrow {
+	background-color: lightgrey;
+    width: 300px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;
+	float: left;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	background-color: cadetblue;
+	
+}
