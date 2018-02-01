@@ -5,6 +5,10 @@ body {
 	background-color: grey;
 }
 
+.top {
+	margin-bottom: 4%;
+}
+
 .logo {
 	margin-right: -250px;
 }
@@ -17,9 +21,22 @@ body {
 	width: 50%;	
 }
 
-.jumbotron-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    padding-top: 6%;
-    border-radius: 0;
+.jumbotron {
+	background-color: #5B5B5B;
+}
+
+.carousel {
+	margin: 5%;
+	text-align: center;
+	width: auto;
+}
+
+.item {
+	margin-top: 6%;
+	margin-right: 2%;
+	float: left;
+}
+
+a {
+    color: white;
 }

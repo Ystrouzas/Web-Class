@@ -5,284 +5,85 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Menu</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<link href="style.css" type="text/css" rel="stylesheet"/>
 	</head>
 	
-	<header>
-		<a href="index.html" title="menu">
-			<div class="col-3 col-t-4 col-m-12 header">
-				<img src="assets/sign.png" width="80%" alt="Sparkeys Burgers" title="Sparkey's Burgers Logo"/>
-			</div>
-		</a>
-	</header>
-	
 	<body>
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"> 
-			<a class="logo" href="index.html"><img src="assets/sign.png" width="40%" alt=""/></a>
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-				<div class="navbar-collapse collapse" id="navbarColor01" style="">
-					<ul class="navbar-nav mr-auto">
-				  		<li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-				  		<li class="nav-item active"> <a class="nav-link" href="menu.html">Menu</a> </li>
-				  		<li class="nav-item active"> <a class="nav-link" href="aboutus.html">About Us</a> </li>
-				  		<li class="nav-item active"> <a class="nav-link" href="reviews.html">Reviews</a> </li>
-					</ul>
-					
-						<!--Search Box-->
-					<!--<form class="form-inline">
-				  		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				  		<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-					</form>-->
-				</div>
-		</nav>
+		<div class="container">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark top" style="z-index:10"> 
+				<a class="logo" href="index.html"><img src="assets/sign.png" width="40%" alt=""/></a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+					<div class="navbar-collapse collapse" id="navbarColor01">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active"> <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home<span class="sr-only">(current)</span></a></li>
+							<li class="nav-item active"> <a class="nav-link" href="menu.html"><i class="fas fa-utensils"></i> Menu</a></li>
+							<li class="nav-item active"> <a class="nav-link" href="aboutus.html"><i class="fas fa-users"></i> About Us</a></li>
+							<li class="nav-item active"> <a class="nav-link" href="reviews.html"><i class="fas fa-star"></i> Reviews</a></li>
+						</ul>
+
+							<!--Search Box-->
+						<!--<form class="form-inline">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+						</form>-->
+					</div>
+			</nav>
+		</div>
 		
-		<div class="menu col-container">
-			<div class="formating">
-				<div class="hamburger">
-				<table id="burger" class="burger col-4 col-t-6 col-m-12">
-  					<tbody>
-					<tr>
-						<th>Burgers</th>
-						<th>Price</th>
-				  	</tr>
-					
-					<tr>
-						<td>Hamburger</td>
-						<th>$6</th>
-				  	</tr>
-					
-					<tr>
-						<td>Cheeseburger</td>
-						<th>$7</th>
-				  	</tr>
-					
-					<tr>
-						<td>Double Cheeseburger</td>
-						<th>$7</th>
-				  	</tr>
-					
-					<tr>
-						<td>Chili Cheeseburger</td>
-						<th>$8</th>
-				 	</tr>
-				
-					<tr>
-						<td>Avocado-Bacon Burger</td>
-						<th>$9</th>
-					</tr>
-				
-					<tr>
-						<td>BBQ-Bacon Burger</td>
-						<th>$8</th>
-					</tr>
-				</tbody>
-				</table>
-			</div>
-			
-			<div class="sandwitches">
-				<table id="sandwitch" class="col-4 col-t-6 col-m-12">
-  					<tbody><tr>
-    					<th>Sandwiches</th>
-						<th>Price</th>
-  					</tr>
-						
-  					<tr>
-						<td>BLT</td>
-						<th>$7</th>
-					</tr>
-					
-					<tr>
-						<td>Hot Link</td>
-						<th>$6</th>
-					</tr>
-						
-					<tr>
-						<td>Oven Roasted Turkey Breast</td>
-						<th>$7</th>
-					</tr>
-						
-					<tr>
-						<td>White Albacore Tuna</td>
-						<th>$8</th>
-					</tr>
-						
-					<tr>
-						<td>Tuna Melt on Sourdough</td>
-						<th>$8</th>
-					</tr>
-						
-					<tr>
-						<td>Salmon Steak on Roll</td>
-						<th>$15</th>
-					</tr>
-				</tbody></table>
-			</div>
-			
-			<div class="dinners">
-				<table id="dinner" class="col-4 col-t-6 col-m-12">
-  					<tbody>
-						<tr>
-							<th>Dinners</th>
-							<th>Price</th>
-						</tr>
-
-						<tr>
-							<td>Salmon Steak</td>
-							<th>$15</th>
-						</tr>
-						
-						<tr>
-							<td>Sparky's Chicken</td>
-							<th>$7</th>
-						</tr>
-
-						<tr>
-							<td>Chicken Platter</td>
-							<th>$8</th>
-						</tr>
-
-						<tr>
-							<td>Beef Platter</td>
-							<th>$15</th>
-						</tr>
-						
-						<tr>
-							<td>Pork</td>
-							<th>$7</th>
-						</tr>
-						
-						<tr>
-							<td>Meatloaf</td>
-							<th>$8</th>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			
-			<div class="salads">
-				<table id="salad" class="col-4 col-t-6 col-m-12">
-  					<tbody>
-						<tr>
-							<th>Salads</th>
-							<th>Price</th>
-						</tr>
-
-						<tr>
-							<td>Green Salad</td>
-							<th>$6</th>
-						</tr>
-
-						<tr>
-							<td>Sparky's Chicken</td>
-							<th>$9</th>
-						</tr>
-
-						<tr>
-							<td>White Albacore Tuna Salad</td>
-							<th>$9</th>
-						</tr>
-
-						<tr>
-							<td>Salmon Steak Salad</td>
-							<th>$15</th>
-						</tr>
-
-						<tr>
-							<td>Avocado-Bacon Salad</td>
-							<th>$9</th>
-						</tr>
-
-						<tr>
-							<td>Caesar Salad</td>
-							<th>$9</th>
-						</tr>
-						</tbody>
-				</table>
-			</div>
-			
-			<div class="beverages">
-				<table id="drink" class="col-4 col-t-6 col-m-12">
-  					<tbody>
-						<tr>
-    						<th>Beverages</th>
-							<th>Price</th>
-  						</tr>
-  				
-						<tr>
-							<td>Starbucks Coffee</td>
-							<th>$3</th>
-						</tr>
-				
-						<tr>
-							<td>Iced Tea</td>
-							<th>$2</th>
-						</tr>
-				
-						<tr>
-							<td>Soda</td>
-							<th>$2</th>
-						</tr>
-					
-						<tr>
-							<td>Lemonade</td>
-							<th>$3</th>
-						</tr>
-						
-						<tr>
-							<td>Orage Juice</td>
-							<th>$3</th>
-						</tr>
-						
-						<tr>
-							<td>Smoothie</td>
-							<th>$3</th>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			
-			<div class="deserts">
-				<table id="dessert" class="col-4 col-t-6 col-m-12">
-  					<tbody>
-						<tr>
-    						<th>Desserts</th>
-							<th>Price</th>
-  						</tr>	
-  					
-						<tr>
-							<td>Milkshake</td>
-							<th>$6</th>
-						</tr>	
-					
-						<tr>
-							<td>Root Beer Float</td>
-							<th>$4</th>
-						</tr>	
-					
-						<tr>
-							<td>Banana Split</td>
-							<th>$5</th>
-						</tr>	
-					
-						<tr>
-							<td>Ice Cream</td>
-							<th>$3</th>
-						</tr>
-						
-						<tr>
-							<td>Popsicle</td>
-							<th>$2</th>
-						</tr>
-						
-						<tr>
-							<td>Cupcakes</td>
-							<th>$2</th>
-						</tr>
-					</tbody>
-				</table>	
-			</div>
+		<div class="card">
+			<div class="card-body item">
+				<h2><img src="assets/burger.jpg" width="40" alt="Burger" style="float:left"/> Burgers</h2>
+				<p>Hamburger - $6<br> Cheeseburger - $7<br>Double Cheeseburger - $7<br>Chili Cheeseburger - $8<br>Avocado-Bacon Burger - $9<br>BBQ-Bacon Burger - $8</p>
 			</div>
 		</div>
+		
+		<div class="card">
+			<div class="card-body item">
+				<h2><img src="assets/home.png" width="40" alt="" style="float:left"/> Sandwitches</h2>
+				<p>BLT - $7<br>Hot Link - $6<br>Oven Roasted Turkey Breast - $7<br>White Albacore Tuna - $8<br>Tuna Melt on Sourdough - $8<br>Salmon Steak on Roll - $15</p>
+			</div>
+		</div>
+		
+		<div class="card">
+			<div class="card-body item">
+				<h2><img src="assets/chickenDinner.jpg" width="40" alt="" style="float:left"/> Dinners</h2>
+				<p>Salmon Steak - $15<br>Sparky's Chicken - $7<br>Chicken Platter - $8<br>Beef Platter - $15<br>Pork - $7<br>Meatloaf - $8</p>
+			</div>
+		</div>
+		
+		<div class="card">
+			<div class="card-body item">
+				<h2><img src="assets/salad.jpg" width="40" alt="" style="float:left"/> Salads</h2>
+				<p>Green Salad - $6<br>Sparky's Chicken - $9<br>White Albacore Tuna Salad - $9<br>Salmon Steak Salad - $15<br>Avocado-Bacon Salad - $9<br>Caesar Salad - $9</p>
+			</div>
+		</div>
+		
+		<div class="card">
+			<div class="card-body item">
+				<h2>Deserts <img src="assets/milkshake.jpg" width="40" alt="" style="float:left"/></h2>
+				<p>Starbucks Coffee - $3<br>Iced Tea - $2<br>Soda - $2<br>Lemonade - $3<br>Orage Juice - $3<br>Smoothie - $3</p>
+			</div>
+		</div>
+		
+		<div class="card">
+			<div class="card-body item">
+				<h2>Drinks <img src="assets/coke.jpg" width="40" alt="" style="float:left"/></h2>
+				<p>Milkshake - $6<br>Root Beer Float - $4<br>Banana Split - $5<br>Ice Cream - $3<br>Popsicle - $2<br>Cupcakes - $2</p>
+			</div>
+		</div>
+			
+		
+		<div class="card-footer bg-dark">
+			<p class="text-center name">Sparky's Giant Burgers - 2018</p>
+			<div class="info">
+				<p class="name"><i class="fas fa-map-marker"></i> <a href="https://goo.gl/maps/6VLLsvHizbE2">4120 Redwood Rd, Oakland, CA 94619</a></p>
+				<p class="name"><i class="fas fa-clock"></i> Open All Week 9AM-9:30PM</p>
+				<p class="name"><i class="fab fa-yelp"></i> <a href="https://www.yelp.com/biz/sparkys-giant-burgers-oakland">Yelp</a></p>
+				<p class="name"><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/pages/Sparkys-Giant-Burgers/104986046210994">Facebook</a></p>
+			</div>
+		</div>
+		
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
