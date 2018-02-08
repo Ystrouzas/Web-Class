@@ -28,3 +28,29 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('../assets/zebra.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.row li {
+    text-indent: 20px;
+}
+
+.row a {
+	margin-top: 15px;
+}
+
+.mt-4, .my-4 {
+    margin-top: 2rem!important;
+}
+
+.blog {
+	margin-top: 2%;
+}
