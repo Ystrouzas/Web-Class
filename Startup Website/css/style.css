@@ -57,6 +57,8 @@ body {
 }
 
 /*CSS for blog rating stars*/
+
+
 div.stars {
   width: 270px;
   display: inline-block;
