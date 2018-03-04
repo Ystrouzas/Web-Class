@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TechNoLogic Control Center</title>
+		<meta name="TechNoLogic Control Center" content="Video and Input server" />
+		<meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
+		<meta name="TechNoLogic" content="TechNoLogic" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+
+	<body>
+	<div class="container">
+	  <ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<!-- <li class="gn-search-item">
+									<input placeholder="Search" type="search" class="gn-search">
+									<a class="gn-icon gn-icon-search"><span>Search</span></a>
+								</li> -->
+								<li>
+									<a href="index.html" class="gn-icon gn-icon-download">Cameras</a>
+									<ul class="gn-submenu">
+										<li><a href="index.html" class="gn-icon gn-icon-illustrator">Split View</a></li>
+										<li><a href="cam1.html" class="gn-icon gn-icon-photoshop">Foward Camera</a></li>
+										<li><a href="cam2.html" class="gn-icon gn-icon-photoshop">Backward Camera</a></li>
+									</ul>
+								</li>
+								<li><a href="settings.html" class="gn-icon gn-icon-cog">Settings</a></li>
+								<li><a href="help.html" class="gn-icon gn-icon-help">Help</a></li>
+								<!--<li>
+									<a class="gn-icon gn-icon-archive">Archives</a>
+									<ul class="gn-submenu">
+										<li><a class="gn-icon gn-icon-article">Articles</a></li>
+										<li><a class="gn-icon gn-icon-pictures">Images</a></li>
+										<li><a class="gn-icon gn-icon-videos">Videos</a></li>
+									</ul>
+								</li>-->
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				
+				<li><a href="index.html">Tech No Logic Control Pannel</a></li>
+				<!--<li><a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/HeaderEffects/"><span>Previous Demo</span></a></li>-->
+				<li><a class="" href="cam1.html"><span>Reload</span></a></li>
+		</ul>
+		
+		<header>
+			
+			<div id="cam1">
+				<img src="http://192.168.1.106:8080/?action=stream" width="1280" height="720" align="middle" alt="Forward Camera" title="Forward Camera">
+				<!--<img src="video-placeholder.png" width="75%" height="720" align="middle">-->
+			</div>
+			
+		  	<!--<div id="cam2">
+		  		<!--<img src="http://192.168.1.106:8090/?action=stream" width="427" height="240" alt=""/>
+		  		<img src="video-placeholder1.png" width="427" height="240">
+   			</div>-->
+	   	</header>
+         
+				
+	  </div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/gnmenu.js"></script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+	</body>
+</html>
